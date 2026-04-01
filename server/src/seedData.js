@@ -1,0 +1,83 @@
+export const seedProducts = [
+  {
+    id: "prod-hubspot-crm",
+    title: "HubSpot CRM",
+    category: "AI Tools",
+    description:
+      "A widely used CRM and growth platform with a strong official affiliate program for business and marketing audiences.",
+    price: 50,
+    commissionRate: 30,
+    affiliateUrl: "https://www.hubspot.com/products/crm",
+    affiliateProgramUrl: "https://www.hubspot.com/partners/affiliates",
+    trafficAngle: "Best CRM for small business, startup CRM comparison, sales pipeline software",
+    affiliateNote: "Replace this destination with your approved HubSpot affiliate link once your account is live.",
+    imageUrl: "",
+    clicks: 14,
+    createdAt: new Date().toISOString()
+  },
+  {
+    id: "prod-semrush",
+    title: "Semrush",
+    category: "Creator Economy",
+    description:
+      "An established SEO and content marketing platform that fits comparison content, tutorials, and agency-focused reviews.",
+    price: 139,
+    commissionRate: 25,
+    affiliateUrl: "https://www.semrush.com/",
+    affiliateProgramUrl: "https://www.semrush.com/lp/affiliate-program/en/",
+    trafficAngle: "Best SEO tools, Ahrefs vs Semrush, keyword research software reviews",
+    affiliateNote: "Swap in your Semrush tracked partner link after program approval.",
+    imageUrl: "",
+    clicks: 11,
+    createdAt: new Date().toISOString()
+  },
+  {
+    id: "prod-kit",
+    title: "Kit",
+    category: "Productivity",
+    description:
+      "A creator email platform with strong recurring commissions and a natural fit for newsletter and creator-economy audiences.",
+    price: 29,
+    commissionRate: 50,
+    affiliateUrl: "https://kit.com/",
+    affiliateProgramUrl: "https://help.kit.com/en/articles/2502522-getting-started-as-a-kit-affiliate",
+    trafficAngle: "Best email marketing for creators, ConvertKit alternatives, newsletter monetization tools",
+    affiliateNote: "Replace with your PartnerStack link from the Kit affiliate dashboard.",
+    imageUrl: "",
+    clicks: 7,
+    createdAt: new Date().toISOString()
+  },
+  {
+    id: "prod-beehiiv",
+    title: "beehiiv",
+    category: "Creator Economy",
+    description:
+      "A fast-growing newsletter platform with a partner dashboard designed for creators, comparison sites, and education content.",
+    price: 49,
+    commissionRate: 60,
+    affiliateUrl: "https://www.beehiiv.com/",
+    affiliateProgramUrl: "https://www.beehiiv.com/partners",
+    trafficAngle: "Best newsletter platform, beehiiv vs Substack, creator newsletter growth stack",
+    affiliateNote: "Once you join beehiiv's partner program, replace this with your custom partner link.",
+    imageUrl: "",
+    clicks: 6,
+    createdAt: new Date().toISOString()
+  }
+];
+
+export const seedLeads = [
+  {
+    id: "lead-demo-1",
+    name: "Aisha",
+    email: "aisha@example.com",
+    interest: "AI Tools",
+    createdAt: new Date().toISOString()
+  },
+  {
+    id: "lead-demo-2",
+    name: "Noah",
+    email: "noah@example.com",
+    interest: "Creator Economy",
+    createdAt: new Date().toISOString()
+  }
+];
